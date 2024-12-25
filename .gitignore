@@ -1,0 +1,45 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+/.pnp
+.pnp.js
+
+# Build outputs
+dist/
+build/
+
+# Static Bundles
+*.bundle.js
+*.map
+
+# IDE settings
+.idea/
+.vscode/
+*.swp
+
+# Env files
+.env
+.env.*.local
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Optional lock files (choose one if needed)
+yarn.lock
+package-lock.json
+pnpm-lock.yaml
+
+# SvelteKit output
+/.svelte-kit
+
+# Temporary files
+*.tmp
+*.bak
